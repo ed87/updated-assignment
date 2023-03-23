@@ -1,0 +1,501 @@
+html {
+    font-size: 16px;
+    background: antiquewhite
+}
+
+body {
+
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+
+}
+
+#and{
+ text-transform: lowercase;
+ font-family: "League Spartan", sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #190D37;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+}
+
+.bigtext {
+    color: #190D37;;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+#big-text3{
+
+    width: 520px;
+    height: 128px;
+    left: 190px;
+    top: 308px;
+
+
+    color: #331E6A;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto 48px;
+}
+
+#hero-text {
+    width: 60%;
+    padding: 32px 20px;
+}
+
+#contact {
+    width: 138px;
+    height: 44px;
+    background: #2f2f2f;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image-width {
+    width: 40%;
+
+}
+
+#hero-image {
+    width: 100%;
+     height: 100%; 
+}
+
+.smalltext {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#hi-and-name {
+    margin-top: 20px;
+}
+
+#pricing-section,
+#questions-section,
+#project-section,
+#job-section {
+    max-width: 1060px;
+    margin: 98px auto;
+}
+
+.subtitles {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #2858ff;
+    text-transform: uppercase;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+
+
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+
+.pricing-box {
+    width: 33.33%;
+    background-color: #FFF8F0;
+}
+
+#pricing-boxes {
+    display: flex;
+}
+
+.pricing-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    margin: 0 10px;
+    padding: 20px;
+
+}
+
+.service {
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+
+
+}
+
+.price {
+    font-family: Poppins;
+    font-size: 36px;
+    margin-top: 8px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+
+}
+
+.price-per-page {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8a8a8a;
+
+}
+
+.service-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8a8a8a;
+    margin-top: 8px;
+
+}
+
+.service-benefits {
+    padding: 0;
+    list-style-type: none;
+    color: #666666;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.service-benefits li {
+    margin-bottom: 8px;
+}
+
+.service-contact-button {
+    width: 100%;
+    padding: 12px;
+    height: 44px;
+    border-radius: 4px;
+    border: 2px solid #2f2f2f;
+    background-color: #ffffff;
+    color: #2F2F2F;
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.service-contact-button:hover {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.card-2 {
+    background-color: #FFD748;
+
+}
+
+.card-2 .service {
+    color: #000000;
+}
+
+.card-2 li {
+    color: #000000;
+}
+
+.card-2 .service-description {
+    color: #000000;
+}
+
+.card-2 .price-per-page {
+    color: #000000;
+}
+
+
+.card-2 .service-contact-button {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.card-2 .service-contact-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 48px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+#yellowline {
+    margin-top: -15px;
+    position: absolute;
+    z-index: -10;
+
+
+
+}
+
+.check {
+    width: 16px;
+    height: 16px;
+    margin-bottom: -2px;
+}
+
+
+
+
+#question {
+    height: 80px;
+    width: 700px;
+    left: 370px;
+    top: 3001px;
+    border-radius: nullpx;
+
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+
+
+}
+
+h1,
+h2 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.paragraph-and-heading2 {
+    text-align: center;
+}
+
+
+#jobs {
+    display: flex;
+    
+}
+
+.job {
+    width: 33.33%;
+    background-color: #ffffff;
+    margin: 0 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+
+
+    
+}
+
+#jobs p {
+    font-family: 'Inter', sans-serif;
+}
+
+#jobs h4 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h4 p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #55206D;
+}
+
+.description {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    color: #55206D;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.left-button {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    border: 0;
+    margin-right: 20px;
+}
+
+
+
+.button1 {
+    background: #19ACFF;
+    color: #FFFFFF;
+}
+
+.button2 {
+    background: #FFE819;
+    color: #000000;
+}
+
+.button3 {
+    background: #FF1919;
+    color: #FFFFFF;
+}
+
+
+.project-name {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #291854;
+    margin-bottom: 8px;
+
+}
+
+.paragraph {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #55206D;
+    margin-bottom: 8px;
+
+}
+
+.top-component {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+}
+
+.image-section {
+    width: 50%;
+}
+
+.left-content {
+    width: 100%;
+}
+
+.middle-section {
+    display: flex;
+    margin: 40px;
+}
+
+.left-side {
+    width: 10%;
+}
+
+.right-side {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.answer {
+    color: #2858ff;
+}
+
+.project-link {
+    font-family: 'Inter' sans-serif, ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6A87A3;
+}
